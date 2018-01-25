@@ -1,0 +1,15 @@
+
+<div class = "container">
+        <form action=""class="form-signin"> 
+                <div class="">
+                     <label>Email/Phone</label>
+                   <input type="text"  class="form-control" name="name" [(ngModel)]="name"  placeholder="Email/Phone "  autofocus="" required />
+                </div>
+                <div class="">
+                     <label>Password</label>
+                   <input type="password" class="form-control"  name="Password" [(ngModel)]="password"  placeholder="Password" required=""/>         	  
+                </div>
+                <p id="demo1" style="color:red"></p>
+                <button class="btn btn-lg btn-primary btn-block"  name="Submit" type="Submit" (click)="signin()">Log In</button>  			
+           </form>			
+</div>

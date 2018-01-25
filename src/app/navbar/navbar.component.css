@@ -1,0 +1,10 @@
+.container-fluid{
+	background-color: #2e353d;
+}
+.navbar-brand{
+    overflow: auto;
+    font-family: verdana;
+    font-size: 35px;
+	color: #e1ffff;
+	padding-left:50px; 
+}

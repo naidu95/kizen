@@ -1,0 +1,45 @@
+<div class = "container">
+  <form > 
+      <div class="form-group">
+          <label>Name</label>
+           <input type="text" class="form-control" required minlength="8" maxlength="10" [(ngModel)]="fname" name="fname" placeholder="Name" />         	  
+           <p id="demo2" style="color:red;"></p>
+          </div> 
+        <p id="demo2" style="color:red;"></p>
+        <div class="form-group">
+            <label>Email</label>
+           <input type="email" class="form-control" required id="mail" name="mail" [(ngModel)]="mail" placeholder="Email"/>
+           <p id="demo3" style="color:red;"></p> 
+          </div>
+          <div class="form-group">
+              <label>Password</label>
+             <input type="password" class="form-control" id="password" name="password" [(ngModel)]="password" placeholder="Password" />
+          </div>
+          <div class="form-group">
+              <label>Confirm Password</label>
+             <input type="password" class="form-control" id="cpassword" name="cpassword" [(ngModel)]="cpassword" placeholder="Confirm Password" />
+             <p id="demo" style="color:red;"></p>
+            </div>
+         <div class="form-group">
+              <label>Date Of Birth</label>
+            <input type="date" class="form-control" id="dob" name="dob" [(ngModel)]="dob" placeholder="Date Of Birth" />         	  
+            <p id="demo4" style="color:red;"></p>
+          </div>
+         <div class="form-group">
+           <label>Gender</label>
+           <select name="gender" [(ngModel)]="gender" id="gender" class="form-control" >
+             <option selected>Male</option>
+             <option >Female</option>
+             <option >Others</option>
+             </select>
+             <p id="demo5" style="color:red;"></p>
+            </div>
+       <div class="form-group">
+         <label>Phone Number</label>
+          <input type="text" class="form-control" id="phonenumber" name="phonenumber" [(ngModel)]="phone" placeholder="Phone Number" maxlength="10" />         	  
+          <p id="demo6" style="color:red;"></p>
+        </div>
+       <button class="btn btn-lg btn-primary btn-block"  name="Submit" type="Submit" (click)="sendform()">Submit</button>  			
+      </form>			
+</div>
+<!-- <httppost></httppost> -->

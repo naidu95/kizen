@@ -1,0 +1,47 @@
+<div>
+    <div class="nav-side-menu row-fluid" >
+      <div class="brand"><span class="glyphicon glyphicon-eye-open"></span>Admin</div>
+      <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+    
+          <div class="menu-list">
+    
+              <ul id="menu-content" class="menu-content collapse out">
+  
+                  <li routerLink="/dashboard" data-toggle="collapse" data-target="#products" class="collapsed ">
+                    <a><i class="glyphicon glyphicon-home"></i>Dashboard</a>
+                  </li>
+                  <li data-toggle="collapse" data-target="#service" class="collapsed">
+                    <a><i class="glyphicon glyphicon-user"></i> Users</a>
+                  </li> 
+                  <li  routerLink="/ui" data-toggle="collapse" data-target="#service" class="collapsed">
+                    <a><i class="glyphicon glyphicon-flag"></i> UI Elements</a><i class="glyphicon glyphicon-menu-down" style="padding-top:10px"></i>
+                  </li> 
+                  <ul class="sub-menu collapse" id="service">
+                    <li routerLink="/panels">Panels and wells</li>
+                    <li routerLink="/buttons" >Buttons</li>
+                    <li routerLink="/notifications">Notifications</li>
+                    <li>Typography</li>
+                    <li>Icons</li>
+                    <li>Grid</li>
+                  </ul>  
+                  <li data-toggle="collapse" data-target="#new" class="collapsed">
+                    <a><i class="glyphicon glyphicon-edit"></i>Editors</a>
+                  </li>
+                  
+                  <li routerLink="/components" data-toggle="collapse" data-target="#new" class="collapsed">
+                      <a><i class="glyphicon glyphicon-asterisk"></i>Components</a>
+                  </li>
+                  <li routerLink="/charts" data-toggle="collapse" data-target="#new" class="collapsed">
+                       <a ><i class="glyphicon glyphicon-stats"></i>Charts</a>
+                  </li>
+                  <li routerLink="/maps" data-toggle="collapse" data-target="#new" class="collapsed">
+                      <a><i class="glyphicon glyphicon-map-marker"></i>Maps</a>
+                  </li>
+                  <li data-toggle="collapse" data-target="#new" class="collapsed">
+                      <a><i class="glyphicon glyphicon-edit"></i>Form Elements</a>
+                  </li>
+                  
+              </ul>
+       </div>
+       
+  </div>
